@@ -618,7 +618,86 @@ input[type="submit"]:hover {
 	}
 }
 /*End animations*/
+#devious-lab {
+	animation: fill 0.5s ease forwards 2.1s;
+}
 
+.MhEDAywz_0 {
+	stroke-dasharray: 262 264;
+	stroke-dashoffset: 263;
+	animation: line-anim 2000ms ease-in 0ms forwards;
+}
+
+.MhEDAywz_1 {
+	stroke-dasharray: 235 237;
+	stroke-dashoffset: 236;
+	animation: line-anim 2000ms ease-in 0ms forwards;
+}
+
+.MhEDAywz_2 {
+	stroke-dasharray: 200 202;
+	stroke-dashoffset: 201;
+	animation: line-anim 2000ms ease-in 0ms forwards;
+}
+
+.MhEDAywz_3 {
+	stroke-dasharray: 100 102;
+	stroke-dashoffset: 101;
+	animation: line-anim 2000ms ease-in 0ms forwards;
+}
+
+.MhEDAywz_4 {
+	stroke-dasharray: 275 277;
+	stroke-dashoffset: 276;
+	animation: line-anim 2000ms ease-in 0ms forwards;
+}
+
+.MhEDAywz_5 {
+	stroke-dasharray: 228 230;
+	stroke-dashoffset: 229;
+	animation: line-anim 2000ms ease-in 0ms forwards;
+}
+
+.MhEDAywz_6 {
+	stroke-dasharray: 229 231;
+	stroke-dashoffset: 230;
+	animation: line-anim 2000ms ease-in 0ms forwards;
+}
+
+.MhEDAywz_7 {
+	stroke-dasharray: 150 152;
+	stroke-dashoffset: 151;
+	animation: line-anim 2000ms ease-in 0ms forwards;
+}
+
+.MhEDAywz_8 {
+	stroke-dasharray: 262 264;
+	stroke-dashoffset: 263;
+	animation: line-anim 2000ms ease-in 0ms forwards;
+}
+
+.MhEDAywz_9 {
+	stroke-dasharray: 290 292;
+	stroke-dashoffset: 291;
+	animation: line-anim 2000ms ease-in 0ms forwards;
+}
+
+@keyframes line-anim {
+	to {
+		stroke-dashoffset: 0;
+	}
+}
+
+@keyframes fill {
+	/* no animation , only sets the gradient to fill */
+	from {
+		fill: transparent;
+	}
+	to {
+		fill: url(#blue-gradient);
+		stroke-opacity: 0;
+	}
+}
 /*Start media queries*/
 @media screen and (max-width: 768px) {
 	body {
@@ -771,85 +850,4 @@ input[type="submit"]:hover {
 	}
 }
 /*End media queries*/
-/* svg */
-#devious-lab {
-	animation: fill 0.5s ease forwards 2.1s;
-}
-
-.MhEDAywz_0 {
-	stroke-dasharray: 262 264;
-	stroke-dashoffset: 263;
-	animation: line-anim 2000ms ease-in 0ms forwards;
-}
-
-.MhEDAywz_1 {
-	stroke-dasharray: 235 237;
-	stroke-dashoffset: 236;
-	animation: line-anim 2000ms ease-in 0ms forwards;
-}
-
-.MhEDAywz_2 {
-	stroke-dasharray: 200 202;
-	stroke-dashoffset: 201;
-	animation: line-anim 2000ms ease-in 0ms forwards;
-}
-
-.MhEDAywz_3 {
-	stroke-dasharray: 100 102;
-	stroke-dashoffset: 101;
-	animation: line-anim 2000ms ease-in 0ms forwards;
-}
-
-.MhEDAywz_4 {
-	stroke-dasharray: 275 277;
-	stroke-dashoffset: 276;
-	animation: line-anim 2000ms ease-in 0ms forwards;
-}
-
-.MhEDAywz_5 {
-	stroke-dasharray: 228 230;
-	stroke-dashoffset: 229;
-	animation: line-anim 2000ms ease-in 0ms forwards;
-}
-
-.MhEDAywz_6 {
-	stroke-dasharray: 229 231;
-	stroke-dashoffset: 230;
-	animation: line-anim 2000ms ease-in 0ms forwards;
-}
-
-.MhEDAywz_7 {
-	stroke-dasharray: 150 152;
-	stroke-dashoffset: 151;
-	animation: line-anim 2000ms ease-in 0ms forwards;
-}
-
-.MhEDAywz_8 {
-	stroke-dasharray: 262 264;
-	stroke-dashoffset: 263;
-	animation: line-anim 2000ms ease-in 0ms forwards;
-}
-
-.MhEDAywz_9 {
-	stroke-dasharray: 290 292;
-	stroke-dashoffset: 291;
-	animation: line-anim 2000ms ease-in 0ms forwards;
-}
-
-@keyframes line-anim {
-	to {
-		stroke-dashoffset: 0;
-	}
-}
-
-@keyframes fill {
-	/* no animation , only sets the gradient to fill */
-	from {
-		fill: transparent;
-	}
-	to {
-		fill: url(#blue-gradient);
-		stroke-opacity: 0;
-	}
-}
 
