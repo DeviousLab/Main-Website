@@ -52,7 +52,7 @@ img {
 .section-heading {
 	text-align: center;
 	color: black;
-	margin-bottom: 10rem;
+	margin-bottom: 5rem;
 }
 
 .section-heading h1 {
@@ -121,16 +121,15 @@ nav {
 }
 
 .navbar-brand {
-	background-color: black;
+	background-color: white;
 	width: 6rem;
 	height: 6rem;
 	border-radius: 100%;
 	display: flex;
 }
 
-.navbar-brand i {
+.navbar-brand img {
 	font-size: 4rem;
-	color: white;
 	margin: auto;
 }
 
@@ -292,13 +291,13 @@ nav {
 } */
 
 .landing-text svg {
-	width: 100%;
+	width: 80%;
 	height: 50%;
 }
 .landing-text h6 {
 	font-size: 2rem;
 	font-weight: 300;
-	color: black;
+	color: rgba(10, 10, 10, 0.8);;
 }
 /*End header*/
 
@@ -319,7 +318,7 @@ nav {
 
 .about-heading h1 {
 	font-size: 10rem;
-	opacity: 0.3;
+	color: rgba(10, 10, 10, 0.8);
 }
 
 .about-heading h6 {
@@ -723,7 +722,7 @@ input[type="submit"]:hover {
 		position: fixed;
 		left: 0;
 		bottom: -100vh;
-		transition: bottom 650ms;
+		transition: bottom 500ms;
 	}
 
 	.nav-list.active {
@@ -781,6 +780,7 @@ input[type="submit"]:hover {
 
 	.nav-list {
 		transform: scale(1);
+		z-index: 2;
 	}
 }
 
