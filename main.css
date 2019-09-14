@@ -121,7 +121,6 @@ nav {
 }
 
 .navbar-brand {
-	background-color: white;
 	width: 6rem;
 	height: 6rem;
 	border-radius: 100%;
@@ -303,7 +302,7 @@ nav {
 
 /*Start about*/
 .about .container {
-	padding-top: 30rem;
+	padding-top: 40rem;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -839,15 +838,8 @@ input[type="submit"]:hover {
 @media (prefers-color-scheme: dark) {
 	body {
 		background-color: black;
-		color: white;
 	}
 }
 
-@media (prefers-color-scheme: light) {
-	body {
-		background-color: white;
-		color: black;
-	}
-}
 /*End media queries*/
 
