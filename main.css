@@ -887,7 +887,7 @@ input[type="submit"]:hover {
 
 @media (prefers-color-scheme: light) {
 	body {
-		background: url("images/bglight.jpg") no-repeat center fixed;
+		background: url("images/bglight.jpg2") no-repeat center fixed;
 	}
 	html {
 		color: black;
