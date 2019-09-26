@@ -8,13 +8,13 @@
 html {
 	font-size: 10px;
 	font-family: 'Roboto', sans-serif;
-	color: black;
+	color: white;
 }
 
 body {
 	width: 100%;
 	height: 100vh;
-	background: url("images/sitebg.jpg") no-repeat center fixed;
+	background: url("images/bgdark.jpg") no-repeat center fixed;
 	background-size: cover;
 }
 
@@ -24,7 +24,7 @@ section {
 
 a {
 	text-decoration: none;
-	color: black;
+	color: white;
 }
 
 p {
@@ -33,7 +33,7 @@ p {
 }
 
 body h6 {
-	color: rgba(10, 10, 10, 0.8);
+	color: rgba(255, 255, 255, 0.8);
 }
 img {
 	width: 100%;
@@ -51,13 +51,13 @@ img {
 
 .section-heading {
 	text-align: center;
-	color: black;
+	color: white;
 	margin-bottom: 5rem;
 }
 
 .section-heading h1 {
 	font-size: 3.5rem;
-	color: rgba(10, 10, 10, 0.8);
+	color: rgba(255, 255, 255, 0.8);
 	text-transform: 300;
 	position: relative;
 	margin-bottom: 1rem;
@@ -142,7 +142,7 @@ nav {
 }
 
 .nav-list-social .icon-link {
-	color: black;
+	color: white;
 }
 
 .nav-item {
@@ -156,7 +156,7 @@ nav {
 	position: absolute;
 	width: 100%;
 	height: 2px;
-	background-color: #333;
+	background-color: white;
 	left: 0;
 	bottom: 0;
 	transform: scaleX(0);
@@ -296,7 +296,7 @@ nav {
 .landing-text h6 {
 	font-size: 2rem;
 	font-weight: 300;
-	color: rgba(10, 10, 10, 0.8);
+	color: rgba(255, 255, 255, 0.8);
 }
 /*End header*/
 
@@ -317,7 +317,7 @@ nav {
 
 .about-heading h1 {
 	font-size: 10rem;
-	color: rgba(10, 10, 10, 0.8);
+	color: rgba(255, 255, 255, 0.8);
 }
 
 .about-heading p {
@@ -365,41 +365,41 @@ nav {
 }
 
 .resume-button {
-	position:relative;
-	display:inline-block;
-	width:120%;
-	height:100%;
+	position: relative;
+	display: inline-block;
+	width: 120%;
+	height: 100%;
 	background-color: transparent;
 	border: black 2px solid;
-	line-height:29px;
-	color:white;
-	text-align:center;
+	line-height: 29px;
+	color: white;
+	text-align: center;
 	cursor: pointer;
 	border-radius: 5px;
 	margin: 0 1rem;
-  }
-  .resume-button i {
-	  font-size: 3rem;
-	  padding-top: 5px;
-  }
-  .resume-button span {
-	  font-size: 1.8rem;
-	  font-weight: 300;
-  }
-  .resume-button:after {
-	position:absolute;
-	display:block;
-	content:"";
-	width:100%;
-	height:2px;
-	background-color:#0070ff;
-	transform:scale3d(0,1,1);
-	transform-origin:left;
-	transition:transform .3s;
-  }
-  .resume-button:hover:after {
-	transform:scale3d(1,1,1);
-  }
+}
+.resume-button i {
+	font-size: 3rem;
+	padding-top: 5px;
+}
+.resume-button span {
+	font-size: 1.8rem;
+	font-weight: 300;
+}
+.resume-button:after {
+	position: absolute;
+	display: block;
+	content: "";
+	width: 100%;
+	height: 2px;
+	background-color: #0070ff;
+	transform: scale3d(0, 1, 1);
+	transform-origin: left;
+	transition: transform .3s;
+}
+.resume-button:hover:after {
+	transform: scale3d(1, 1, 1);
+}
 /*End about*/
 
 /*Start services*/
@@ -492,9 +492,9 @@ nav {
 
 /*Start timeline*/
 .timeline ul {
-	border-left: 4px solid rgb(51, 51, 51);
+	border-left: 4px solid rgb(255, 255, 251);
 	border-radius: 0.8rem;
-	background-color: rgba(0, 0, 0, 0.05);
+	background-color: rgba(255, 255, 255, 0.2);
 	margin: 0 auto;
 	position: relative;
 	padding: 5rem;
@@ -740,7 +740,7 @@ input[type="submit"]:hover {
 /*Start media queries*/
 @media screen and (max-width: 768px) {
 	body {
-		background: url("images/sitebg2.jpg") no-repeat center fixed;
+		background: url("images/bgdark.jpg") no-repeat center fixed;
 		background-size: cover;
 	}
 
@@ -885,9 +885,50 @@ input[type="submit"]:hover {
 	}
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
 	body {
+		background: url("images/bglight.jpg2") no-repeat center fixed;
+	}
+	html {
+		color: black;
+	}
+	a {
+	
+		color: black;
+	}
+	body h6 {
+		color: rgba(0, 0, 0, 0.8);
+	}
+	.section-heading h1 {
+		color: rgba(0, 0, 0, 0.8);
+	}
+	.nav-list-social .icon-link {
+		color: black;
+	}
+	.nav-item::before {
 		background-color: black;
+	
+	}
+	.landing-text h6 {
+		color: rgba(0, 0, 0, 0.8);
+	}
+	.about-heading h1 {
+		color: rgba(0, 0, 0, 0.8);
+	}
+	.timeline ul {
+		border-left: 4px solid rgb(0, 0, 0);
+		background-color: rgba(0, 0, 0, 0.05);
+	}
+	.contact {
+		background-color: white;
+	}
+	
+	.contact h1 {
+		color: rgba(0, 0, 0, 0.8);
+	}
+	
+	.contact h6 {
+		color: rgba(0, 0, 0, 0.8);
 	}
 }
 
